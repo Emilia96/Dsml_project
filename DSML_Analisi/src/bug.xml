@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.0.0-beta1" sequence="1" timestamp="1561713829109" analysisTimestamp="1561713826830" release="">
+  <Project projectName="DSML_Analisi">
+    <Jar>C:\Users\Emilia\eclipse-workspace\DSML_Analisi\bin\Ricorsione.class</Jar>
+    <AuxClasspathEntry>C:\Users\Emilia\eclipse-workspace\DSML_Analisi\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Emilia\Downloads\jdom-2.0.6\jdom-2.0.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Emilia\Downloads\jdom-2.0.6\jdom-2.0.6-contrib.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Emilia\Downloads\jdom-2.0.6\jdom-2.0.6-javadoc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Emilia\Downloads\jdom-2.0.6\jdom-2.0.6-junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Emilia\Downloads\jdom-2.0.6\jdom-2.0.6-sources.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Emilia\Downloads\opencsv-2.2.jar\opencsv-2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Emilia\Downloads\Telegram Desktop\opencsv-4.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-11.0.2\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\Emilia\eclipse-workspace\DSML_Analisi\src</SrcDir>
+  </Project>
+  <BugInstance type="IL_INFINITE_RECURSIVE_LOOP" priority="1" rank="9" abbrev="IL" category="CORRECTNESS" first="1">
+    <Class classname="Ricorsione">
+      <SourceLine classname="Ricorsione" sourcefile="Ricorsione.java" sourcepath="Ricorsione.java"/>
+    </Class>
+    <Method classname="Ricorsione" name="error" signature="(I)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="Ricorsione" start="4" end="5" startBytecode="0" endBytecode="69" sourcefile="Ricorsione.java" sourcepath="Ricorsione.java"/>
+    </Method>
+    <SourceLine classname="Ricorsione" start="5" end="5" startBytecode="10" endBytecode="10" sourcefile="Ricorsione.java" sourcepath="Ricorsione.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 28 Jun 2019 11:23:22 +0200" total_classes="1" referenced_classes="14" total_bugs="1" total_size="6" num_packages="1" java_version="11.0.2" vm_version="11.0.2+9-LTS" cpu_seconds="10.59" clock_seconds="24.81" peak_mbytes="749.29" alloc_mbytes="1024.00" gc_seconds="0.07" priority_1="1">
+    <PackageStats package="" total_bugs="1" total_types="1" total_size="6" priority_1="1">
+      <ClassStats class="Ricorsione" sourceFile="Ricorsione.java" interface="false" size="6" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="888" invocations="2" avgMicrosecondsPerInvocation="444032" maxMicrosecondsPerInvocation="678116" standardDeviationMicrosecondsPerInvocation="234084"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="525" invocations="358" avgMicrosecondsPerInvocation="1467" maxMicrosecondsPerInvocation="47447" standardDeviationMicrosecondsPerInvocation="3546"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="89" invocations="359" avgMicrosecondsPerInvocation="249" maxMicrosecondsPerInvocation="1008" standardDeviationMicrosecondsPerInvocation="120"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="74" invocations="14" avgMicrosecondsPerInvocation="5348" maxMicrosecondsPerInvocation="22989" standardDeviationMicrosecondsPerInvocation="7108"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="56" invocations="2" avgMicrosecondsPerInvocation="28166" maxMicrosecondsPerInvocation="55628" standardDeviationMicrosecondsPerInvocation="27462"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="54" invocations="30" avgMicrosecondsPerInvocation="1812" maxMicrosecondsPerInvocation="32871" standardDeviationMicrosecondsPerInvocation="5980"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1561713829108" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>
